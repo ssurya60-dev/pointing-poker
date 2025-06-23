@@ -149,7 +149,6 @@ const Home = () => {
           </div>
         </div>
       </header>
-
       <main className="flex-1 container mx-auto py-6 sm:py-8 lg:py-12 px-4">
         {!sessionState ? (
           <div className="max-w-4xl mx-auto">
@@ -191,9 +190,6 @@ const Home = () => {
                   >
                     <Card className="h-full border-0 shadow-lg bg-gradient-to-br from-blue-500 to-blue-600 text-white hover:shadow-xl transition-all duration-300">
                       <CardContent className="p-4 sm:p-6 text-center">
-                        <div className="bg-white/20 rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:bg-white/30 transition-colors">
-                          <Plus className="h-6 w-6 sm:h-8 sm:w-8" />
-                        </div>
                         <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">
                           Create Session
                         </h3>
@@ -315,7 +311,6 @@ const Home = () => {
           </motion.div>
         )}
       </main>
-
       <footer className="border-t py-6 px-6 bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto text-center text-sm text-gray-500">
           <p className="flex items-center justify-center gap-2">
